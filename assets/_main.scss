@@ -85,7 +85,14 @@ ul.pagination {
 }
 
 .book-brand {
+  color: #16325c;
   margin-top: 0;
+  font-weight: bolder;
+  font-size: 1.25rem;
+
+  a {
+    color: #16325c !important;
+  }
 
   img {
     height: 1.5em;
@@ -109,7 +116,7 @@ ul.pagination {
 
   a,
   label {
-    color: inherit;
+    color: #4f6a92;
     cursor: pointer;
     word-wrap: break-word;
   }
@@ -149,6 +156,12 @@ ul.pagination {
   min-width: $body-min-width;
   flex-grow: 1;
   padding: $padding-16;
+
+  .markdown {
+    h1 {
+      font-size: 1.825rem;
+    }
+  }
 }
 
 .book-post {
